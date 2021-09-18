@@ -1,0 +1,143 @@
+#html {
+  font-size: 16px;
+}
+
+#header {
+  display: flex;
+  padding: 1vh 0 1vh 2.5vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(236, 240, 241);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+#nav-item {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgb(236, 240, 241);
+}
+
+#feature-container {
+  margin-top: 10vh;
+}
+
+#feature {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#feature-passage {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 40vw;
+  padding-top: 5%;
+}
+
+#video-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#purchase-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 20vw;
+  margin: 10px;
+  text-align: center;
+}
+
+#product-title {
+  background-color: rgb(229, 231, 233);
+  padding: 5px 5px;
+}
+
+#product-price {
+  padding-top: 10px;
+}
+
+#product-content {
+  padding: 10px 50px;
+}
+
+#form {
+  width: 50vw;
+  margin: 50px auto 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#email {
+  width: 40%;
+  margin: 20px auto 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #nav-bar {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #feature-container {
+    margin-top: 15vh;
+  }
+
+  #feature {
+    width: 100%;
+  }
+
+  #feature-passage {
+    width: 70vw;
+  }
+
+  #purchase-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #product {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+
+  #form {
+    margin: 20px 0 20px;
+    width: 100%;
+  }
+
+  #email {
+    width: 80%;
+  }
+}
