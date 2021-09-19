@@ -91,7 +91,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-color: #e5e7e9;
+  background-color: rgba(215, 219, 221, 0.4);
 }
 
 #email {
